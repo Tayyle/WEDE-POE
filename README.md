@@ -57,13 +57,13 @@ Website Goals and Objectives
 |---|---|---|
 | Planning & Wireframing | 05/08/2026 | Completed |
 | Part 1: Submit Proposal and Semantic HTML structure | 14/082028 | Complete |
-| Add external CSS styling and mobile responsiveness | 16/09/2026 | Ongoing |
+| Add external CSS styling and mobile responsiveness | 16/09/2026 | Completed |
 | Organisation and proposal approved, Sitemap and folder structure finalised | 20/07/2026 |
-| HTML pages built and content integrated | 07/08/2026 | 
-| Navigation linked and cross-browser tested | 09/08/2026 |
-| GitHub repository finalised, Part 1 submitted | 14/08/2026 |
-| Part02: submitted | 18/09/2026 |
-| Part03:  Adding JavaScript an bnvd interactivity | [Date] | Planned |
+| HTML pages built and content integrated | 07/08/2026 | Completed
+| Navigation linked and cross-browser tested | 09/08/2026 | Completed
+| GitHub repository finalised, Part 1 submitted | 14/08/2026 | Completed
+| Part02: submitted | 18/09/2026 | Completed
+| Part03:  Adding JavaScript an bnvd interactivity | [Date] | Completed |
 | Final Testing & Submission | [Date] |Planned |
 
 Week 01: 31/08/2026 - 04/09/2026
@@ -85,7 +85,7 @@ Known limitations for this part: [e.g. JavaScript functionality not yet implemen
 - 
 
 ## Sitemap
-<img width="1052" height="748" alt="image" src="sitemap.png" />
+<img width="1052" height="748" alt=image src="sitemap.png" />
 
 
 ## Changelog
