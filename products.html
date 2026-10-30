@@ -17,9 +17,32 @@
     <a href="history.html">History</a>
     <a href="products.html">Products</a>
     <a href="contact.html">Contact</a>
+
+    <!-- Filter and Sort Controls -->
+<div class="controls">
+
+  <label for="filter">Filter by Patty:</label>
+
+  <select id="filter" onchange="filterBurgers()">
+    <option value="all">All Burgers</option>
+    <option value="beef">Beef Patty</option>
+    <option value="veggie">Veggie Patty</option>
+  </select>
+
+  <label for="sort">Sort:</label>
+
+  <select id="sort" onchange="sortBurgers()">
+    <option value="default">Default Order</option>
+    <option value="az">A - Z</option>
+    <option value="za">Z - A</option>
+  </select>
+
+</div>
+
+<br><br>
   </nav>
 
-  <div class="products">
+  <div class="product beef">
     <h2>What's Inside Our Burgers?</h2>
     <p class="intro">At Patty Palace, every burger is made with delicious ingredients stacked together to create a royal burger experience. Take a look at what is inside and on each of our famous burgers.</p>
 
@@ -42,7 +65,7 @@
     </div>
 
     <!-- Cheese Lover's Burger -->
-    <div class="product">
+    <div class="product beef">
       <img src="images/Chesse burger.jpg" alt="Cheese Lover's Burger">
       <h3>Cheese Lover's Burger</h3>
       <p>A delicious beef burger covered with melted cheese and fresh toppings for the ultimate cheesy experience.</p>
@@ -61,7 +84,7 @@
     </div>
 
     <!-- BBQ Bacon Burger -->
-    <div class="product">
+    <div class="product beef">
       <img src="images/BBQ Bacon burger.jpg" alt="BBQ Bacon Burger">
       <h3>BBQ Bacon Burger</h3>
       <p>A smoky and delicious burger combining a juicy beef patty, crispy bacon and our tasty BBQ flavour.</p>
@@ -75,6 +98,70 @@
       <li>Fresh lettuce</li>
       <li>Onion</li>
       <li>Soft toasted burger bun</li>
+     </ul>
+    </div>
+  </div>
+  <!-- Veggie Delight Burger -->
+<div class="product veggie">
+  <img src="images/Veggie Delight Burger.jpg" alt="Veggie Delight Burger">
+  <h3>Veggie Delight Burger</h3>
+  <p>A healthy and delicious burger packed with fresh vegetables and a flavourful veggie patty.</p>
+
+  <div class="ingredients">
+    <h4>What's Inside?</h4>
+    <ul>
+      <li>Grilled veggie patty</li>
+      <li>Fresh lettuce</li>
+      <li>Fresh tomato</li>
+      <li>Cucumber slices</li>
+      <li>Red onion</li>
+      <li>Avocado spread</li>
+      <li>Soft toasted burger bun</li>
     </ul>
   </div>
+</div>
+
+<br><br>
+
+<!-- Spicy Jalapeño Burger -->
+<div class="product beef">
+  <img src="images/Spicy Jalapeno Burger.jpg" alt="Spicy Jalapeño Burger">
+  <h3>Spicy Jalapeño Burger</h3>
+  <p>A fiery burger with a juicy beef patty, spicy jalapeños and melted cheese for burger lovers who enjoy some heat.</p>
+
+  <div class="ingredients">
+    <h4>What's Inside?</h4>
+    <ul>
+      <li>Juicy beef patty</li>
+      <li>Sliced jalapeños</li>
+      <li>Melted cheese</li>
+      <li>Fresh lettuce</li>
+      <li>Fresh tomato</li>
+      <li>Spicy burger sauce</li>
+      <li>Soft toasted burger bun</li>
+    </ul>
+  </div>
+</div>
+
+<br><br>
+
+<!-- Cheese Lover's Burger Special -->
+<div class="product">
+  <img src="images/Chesse burger.jpg" alt="Cheese Lover's Burger">
+  <h3>Cheese Lover's Burger</h3>
+  <p>Loaded with rich melted cheese and fresh ingredients, this burger is perfect for cheese lovers.</p>
+
+  <div class="ingredients">
+    <h4>What's Inside?</h4>
+    <ul>
+      <li>Juicy beef patty</li>
+      <li>Double melted cheese</li>
+      <li>Fresh lettuce</li>
+      <li>Fresh tomato</li>
+      <li>Onion rings</li>
+      <li>Cheese sauce</li>
+      <li>Soft toasted burger bun</li>
+    </ul>
+  </div>
+</div>
 </div>
