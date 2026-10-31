@@ -1,3 +1,4 @@
+
 /* General page styling */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -59,16 +60,13 @@ nav a:hover {
   border-radius: 15px;
   max-width: 1000px;
 
-  /* Larger  image */
   height: 400px;
 
-  /* Center content */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  /* Shadow effect */
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
@@ -206,13 +204,15 @@ nav a:hover {
   text-align: center;
 }
 
+/* Combined product and ingredients block */
 .product {
   background: white;
   border: 2px solid #8B4513;
-  padding: 20px;
+  padding: 15px;
   margin: 25px auto;
   text-align: center;
   border-radius: 15px;
+  max-width: 550px;
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -222,6 +222,7 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
+/* Product image */
 .product img {
   width: 100%;
   max-width: 350px;
@@ -234,24 +235,27 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+/* Product heading */
 .product h3 {
   font-family: 'Montserrat', sans-serif;
   color: #8B4513;
   margin: 15px 0;
 }
 
+/* Product description */
 .product p {
   color: #333;
   line-height: 1.6;
   text-align: center;
 }
 
+/* Ingredients inside the product block */
 .ingredients {
-  background: #fff8f0;
-  border: 1px solid #FFA500;
-  padding: 15px;
+  background: transparent;
+  border: none;
+  padding: 5px;
   margin-top: 15px;
-  border-radius: 10px;
+  border-radius: 0;
   text-align: center;
 }
 
@@ -287,6 +291,7 @@ nav a:hover {
     transform: translateY(0);
   }
 }
+
 /* Menu Search Bar */
 .search-container {
   text-align: center;
@@ -309,27 +314,27 @@ nav a:hover {
   border-color: #FFA500;
   box-shadow: 0 0 8px rgba(255,165,0,0.5);
 }
-/* Filter and Sort Controls */
 
+/* Filter and Sort Controls */
 .controls {
-    margin: 20px auto;
-    text-align: center;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .controls label {
-    color: #8B4513;
-    font-weight: bold;
+  color: #8B4513;
+  font-weight: bold;
 }
 
 .controls select {
-    padding: 8px;
-    margin: 0 10px;
-    border: 2px solid #8B4513;
-    border-radius: 8px;
-    font-family: 'Open Sans', sans-serif;
+  padding: 8px;
+  margin: 0 10px;
+  border: 2px solid #8B4513;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .controls select:focus {
-    outline: none;
-    border-color: #FFA500;
+  outline: none;
+  border-color: #FFA500;
 }
